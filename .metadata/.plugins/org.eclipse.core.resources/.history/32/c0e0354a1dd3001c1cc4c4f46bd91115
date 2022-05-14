@@ -1,0 +1,20 @@
+package br.edu.fatecfranca.apidb.model;
+
+import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
+import javax.persistence.GenerationType;
+import javax.persistence.Id;
+import javax.persistence.Table;
+
+//informe que a classe é uma entidade do bd
+@Entity
+//informe que a classe pokemon e uma tabela cahamada pokemon
+@Table(name="pokemon")
+public class Pokemon {
+
+	//cria uma variavel que é uma chave primaria com
+	//conteudo gerado automaticamente com incremento
+	@Id
+	@GeneratedValue(strategy=GenerationType.IDENTITY)
+	private Long id;
+}

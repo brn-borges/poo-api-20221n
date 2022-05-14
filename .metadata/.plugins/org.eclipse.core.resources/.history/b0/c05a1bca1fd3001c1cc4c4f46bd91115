@@ -1,0 +1,5 @@
+package br.edu.fatecfranca.apidb.model.repositories;
+
+public interface PokemonRepository {
+
+}

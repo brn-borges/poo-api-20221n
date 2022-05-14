@@ -1,0 +1,8 @@
+#define localização do banco de dados
+spring.datasource.url=jdbc:postgresql://localhost:5432/pokemon
+#define o usuario do banco
+spring.datasource.username=postgres
+#define a senha do banco
+spring.datasource.password=fatec123*
+#define que as tabelas serão criadas automaticamente pelo programa.
+spring.jpa.hibernate.ddl-auto=update
