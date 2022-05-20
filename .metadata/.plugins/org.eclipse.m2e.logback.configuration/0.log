@@ -1431,3 +1431,35 @@ org.eclipse.core.runtime.CoreException: Could not resolve artifact antlr:antlr:j
 	at org.eclipse.m2e.core.internal.embedder.MavenImpl.execute(MavenImpl.java:1416)
 	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.run(DownloadSourcesJob.java:152)
 	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+2022-05-20 19:17:02,349 [Worker-5: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2022-05-20 19:17:02,580 [Worker-5: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Updating Gradle version information cache failed. Using outdated cache.
+2022-05-20 19:27:38,580 [Worker-14: Launching Executing test in C__Users_teste_Documents_workspace-spring-tool-suite-4-4.14.1.RELEASE_ApiDB] INFO  o.e.m.i.launch.MavenLaunchDelegate - C:\Users\teste\Documents\workspace-spring-tool-suite-4-4.14.1.RELEASE\ApiDB
+2022-05-20 19:27:38,583 [Worker-14: Launching Executing test in C__Users_teste_Documents_workspace-spring-tool-suite-4-4.14.1.RELEASE_ApiDB] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -Ppom.xml -B test -Dstyle.color=always
+2022-05-20 19:27:53,711 [Worker-13: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-05-20 19:27:53,711 [Worker-13: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-05-20 19:27:53,717 [Worker-13: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-05-20 19:27:53,733 [Worker-13: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-05-20 19:27:53,737 [Worker-13: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-05-20 19:27:53,737 [Worker-13: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-05-20 19:27:53,737 [Worker-13: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\teste\Documents\workspace-spring-tool-suite-4-4.14.1.RELEASE\ApiDB\src\test\resources
+2022-05-20 19:51:37,572 [Worker-21: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-05-20 19:51:37,572 [Worker-21: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-05-20 19:51:37,576 [Worker-21: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-05-20 19:51:37,585 [Worker-21: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-05-20 19:51:37,587 [Worker-21: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-05-20 19:51:37,587 [Worker-21: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-05-20 19:51:37,588 [Worker-21: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\teste\Documents\workspace-spring-tool-suite-4-4.14.1.RELEASE\ApiDB\src\test\resources
+2022-05-20 20:29:08,063 [Worker-23: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-05-20 20:29:08,064 [Worker-23: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-05-20 20:29:08,065 [Worker-23: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-05-20 20:29:08,110 [Worker-23: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-05-20 20:29:08,114 [Worker-23: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-05-20 20:29:08,114 [Worker-23: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-05-20 20:29:08,114 [Worker-23: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\teste\Documents\workspace-spring-tool-suite-4-4.14.1.RELEASE\ApiDB\src\test\resources
+2022-05-20 20:39:05,083 [Worker-29: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-05-20 20:39:05,084 [Worker-29: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-05-20 20:39:05,085 [Worker-29: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-05-20 20:39:05,098 [Worker-29: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-05-20 20:39:05,102 [Worker-29: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-05-20 20:39:05,102 [Worker-29: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-05-20 20:39:05,103 [Worker-29: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\teste\Documents\workspace-spring-tool-suite-4-4.14.1.RELEASE\ApiDB\src\test\resources
