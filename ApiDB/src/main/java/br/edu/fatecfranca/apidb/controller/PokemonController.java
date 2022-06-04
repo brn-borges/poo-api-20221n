@@ -3,6 +3,7 @@ package br.edu.fatecfranca.apidb.controller;
 import java.util.List;
 
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.web.bind.annotation.CrossOrigin;
 import org.springframework.web.bind.annotation.DeleteMapping;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
@@ -25,6 +26,7 @@ public class PokemonController {
 	
 	// metodo get para consultar os pokemons na rota /pokemon
 	@GetMapping("/pokemon")
+	@CrossOrigin(origins="*") // permite que api seja consumida de um ip em espefico, nosso caso de qualquer ip.
 	public List<Pokemon> get(){
 		// select * from pokemon
 		return injecao.findAll();
@@ -32,6 +34,7 @@ public class PokemonController {
 	
 	//metodo post para inserir um pokemon na rota /pokemon
 	@PostMapping("/pokemon")
+	@CrossOrigin(origins="*")
 	public Pokemon add (@RequestBody Pokemon pokemon) {
 		Pokemon novoPokemon = injecao.save(pokemon);
 		return novoPokemon;
@@ -39,6 +42,7 @@ public class PokemonController {
 	
 	//metodo delete para remover um pokemon na tara /pokemon
 	@DeleteMapping("/pokemon/{id}")
+	@CrossOrigin(origins="*")
 	public String remove(@PathVariable Long id) {
 		try { // tenta remover
 			injecao.deleteById(id);
@@ -49,6 +53,7 @@ public class PokemonController {
 	}
 	
 	@PutMapping("/pokemon")
+	@CrossOrigin(origins="*")
 	public Pokemon updates (@RequestBody Pokemon pokemon) {
 		Pokemon alteradoPokemon = injecao.save(pokemon);
 		//pokemon tera id, portanto o save atualiza
